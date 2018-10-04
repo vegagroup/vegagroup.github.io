@@ -35,7 +35,7 @@ $(document).ready(function () {
 		$("form").LoadingOverlay("show", {background: 'rgba(78, 185, 128, 0.5)'});
 		setTimeout(() => {
 			$("form").LoadingOverlay("hide");
-			alert("Your message has been received!");
+			alert("We are sorry, an error has occurred.");
 		}, Math.random() * (2000 - 500) + 500);
 		return false;
 	});
